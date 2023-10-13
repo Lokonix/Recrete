@@ -5,7 +5,7 @@ H_T = ["files/PIC_P/P_T/T_Body.png","files/PIC_P/P_T/T_Head.png","files/PIC_P/P_
        ,30,18,8,11                                                      #Haracter-----(Body from Shadow),(Head from Body),(Legs from Body),(Hands from Body)
        ,4,2,2,10,"files/PIC_P/P_T/T_Magi_1.png","files/PIC_P/P_T/T_Magi_1.png"          #Magia1-----(MagiaX-spawn)--(MagiaY)--(Speed)--(Damage)--(Template R,L)   start 12
        ,8,8,5,20,"files/PIC_P/P_T/T_Magi_1.png","files/PIC_P/P_T/T_Magi_1.png"          #Magia2-----(Magiax)--(MagiaY)--(Speed)--(Damage)--(Template R,L)   start 18
-       ,25,30                                                           #Body-----(Scala-Hitboxa ciala w stosunku do magi)--(X,Y)
+       ,25,35                                                           #Body-----(Scala-Hitboxa ciala w stosunku do magi)--(X,Y)
        #animacja swobodna kun glowa od 25 do 35
         ,0,0,0,0,0,0,0,0                # BodyY    24 - 31
         ,0,2.5,5,2.5,0,-2.5,-5,-2.5     # Head     32 - 
