@@ -59,7 +59,7 @@ H_T = ["files/PIC_P/P_T/T_Body.png","files/PIC_P/P_T/T_Head.png","files/PIC_P/P_
 
 
 H_Neit = ["files/PIC_P/P_1/N_Body.png","files/PIC_P/P_1/N_Head.png","files/PIC_P/P_1/N_Hand.png","files/PIC_P/P_1/N_Leg.png","files/PIC_P/P_1/N_Body2.png","files/PIC_P/P_1/N_Head2.png","files/PIC_P/P_1/N_Hand2.png","files/PIC_P/P_1/N_Leg2.png"
-       ,30,18,8,11                                                      #Haracter-----(Body from Shadow),(Head from Body),(Legs from Body),(Hands from Body)
+       ,70,25,15,32                                                      #Haracter-----(Body from Shadow),(Head from Body),(Legs from Body),(Hands from Body)
        ,4,2,2,10,"files/PIC_P/P_T/T_Magi_1.png","files/PIC_P/P_T/T_Magi_1.png"          #Magia1-----(MagiaX-spawn)--(MagiaY)--(Speed)--(Damage)--(Template R,L)   start 12
        ,8,8,5,20,"files/PIC_P/P_T/T_Magi_1.png","files/PIC_P/P_T/T_Magi_1.png"          #Magia2-----(Magiax)--(MagiaY)--(Speed)--(Damage)--(Template R,L)   start 18
        ,25,35                                                           #Body-----(Scala-Hitboxa ciala w stosunku do magi)--(X,Y)

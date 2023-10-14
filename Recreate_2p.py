@@ -24,20 +24,20 @@ def players_stats():
     scren.blit(pygame.image.load("files/PIC_M/W_stats_2.png"), (500, -125))
 
 def player_1():
+    scren.blit(P1_Shadow,(P1X,P1Y))
     scren.blit(P1_Hand2,(B1X + 50 - int(P1_Hand2.get_width() / 2), B1Y  + 50 - HandY - int(P1_Hand2.get_height() / 2)))
     scren.blit(P1_Leg2,(B1X + 50 - int(P1_Leg2.get_width() / 2), B1Y + 50 + LegY - int(P1_Leg2.get_height() / 2)))
 
-    scren.blit(P1_Shadow,(P1X,P1Y))
     scren.blit(P1_Body,(B1X,B1Y + 0))
     scren.blit(P1_Head,(B1X + 50 - int(P1_Head.get_width() / 2), B1Y  + 50 - HeadY - int(P1_Head.get_height() / 2)))
     scren.blit(P1_Hand,(B1X + 50 - int(P1_Hand.get_width() / 2), B1Y  + 50 - HandY - int(P1_Hand.get_height() / 2)))
     scren.blit(P1_Leg,(B1X + 50 - int(P1_Leg.get_width() / 2), B1Y + 50 + LegY - int(P1_Leg.get_height() / 2)))
     scren.blit(pygame.transform.rotate(P1_Magic, 0), (M_X + Magiaspeed, M_Y ), ((ATic + 1) * 100 + 1, 1, 98, 98,))
 def player_2():
+    scren.blit(P2_Shadow,(P2X,P2Y))
     scren.blit(P2_Hand2,(B2X + 50 - int(P2_Hand2.get_width() / 2), B2Y  + 50 - HandY_p2 - int(P2_Hand2.get_height() / 2)))
     scren.blit(P2_Leg2,(B2X + 50 - int(P2_Leg2.get_width() / 2), B2Y + 50 + LegY_p2 - int(P2_Leg2.get_height() / 2)))
 
-    scren.blit(P2_Shadow,(P2X,P2Y))
     scren.blit(P2_Body,(B2X,B2Y + 0))
     scren.blit(P2_Head,(B2X + 50 - int(P2_Head.get_width() / 2), B2Y  + 50 - HeadY_p2 - int(P2_Head.get_height() / 2)))
     scren.blit(P2_Hand,(B2X + 50 - int(P2_Hand.get_width() / 2), B2Y  + 50 - HandY_p2 - int(P2_Hand.get_height() / 2)))
