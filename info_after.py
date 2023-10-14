@@ -4,7 +4,7 @@ from Haracter import *
 #Player 1 dane
 #Tick = T_R ---> normalny to 4
 T_R = 5
-Haracter = H_T # zeby zmienic calkowicie postac tzeba zmienic to H_T na jakis inny 
+Haracter = H_Neit # zeby zmienic calkowicie postac tzeba zmienic to H_T na jakis inny 
 BodyY, HeadY, HandY, LegY = Haracter[8], Haracter[9], Haracter[10], Haracter[11]
 
 
